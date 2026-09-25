@@ -4,10 +4,10 @@ body { margin: 0; color: #222; background: #fff; font-family: Arial, "Microsoft 
 a { color: #222; text-decoration: underline; }
 a:hover { color: #666; }
 .page { width: min(720px, calc(100% - 40px)); margin: 0 auto; padding: 55px 0 70px; }
-.identity { display: flex; align-items: flex-start; gap: 20px; padding-bottom: 34px; border-bottom: 1px solid #ddd; }
+.identity { display: flex; align-items: flex-start; gap: 40px; padding-left: 20px; padding-bottom: 34px; border-bottom: 1px solid #ddd; }
 .avatar-frame { flex: 0 0 140px; width: 140px; height: 140px; padding: 5px; border: 1px solid #bdbdbd; border-radius: 50%; background: #fff; }
 .avatar { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 15%; border: 1px solid #bdbdbd; border-radius: 50%; }
-.identity-info { min-height: 140px; display: flex; flex-direction: column; justify-content: center; gap: 5px; padding: 2px 0; }
+.identity-info { min-height: 140px; display: flex; flex-direction: column; justify-content: center; gap: 9px; padding: 2px 0; }
 h1 { margin: 0 0 3px; font-size: 28px; font-weight: 600; line-height: 1.2; }
 .identity p { margin: 0; color: #555; }
 section { padding: 29px 0; border-bottom: 1px solid #ddd; }
