@@ -27,6 +27,9 @@ p:last-child { margin-bottom: 0; }
 .plain-list span { margin-left: 15px; color: #666; }
 .calligraphy-gallery { display: flex; justify-content: center; align-items: stretch; gap: 12px; margin: 16px auto 0; width: 100%; }
 .calligraphy-gallery img { display: block; width: calc((100% - 12px) / 2); height: clamp(220px, 48vw, 420px); object-fit: contain; object-position: center; }
+.footer-row { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+.footer-note { text-align: right; }
+.last-updated { display: block; margin-top: 8px; color: #888; font-size: 12px; text-align: right; }
 footer { padding-top: 27px; color: #666; font-size: 14px; }
 @media (max-width: 520px) {
   .page { width: calc(100% - 30px); padding-top: 35px; }
@@ -38,4 +41,6 @@ footer { padding-top: 27px; color: #666; font-size: 14px; }
   .period { display: block; margin-top: 3px; }
   .calligraphy-gallery { gap: 8px; margin-top: 14px; }
   .calligraphy-gallery img { width: calc((100% - 8px) / 2); height: clamp(180px, 62vw, 300px); }
+  .footer-row { gap: 10px; }
+  .footer-note { margin-left: auto; }
 }
