@@ -7,9 +7,9 @@ a:hover { color: #666; }
 .identity { display: flex; align-items: flex-start; gap: 20px; padding-bottom: 34px; border-bottom: 1px solid #ddd; }
 .avatar-frame { flex: 0 0 140px; width: 140px; height: 140px; padding: 5px; border: 1px solid #bdbdbd; border-radius: 50%; background: #fff; }
 .avatar { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 15%; border: 1px solid #bdbdbd; border-radius: 50%; }
-.identity-info { min-height: 140px; display: flex; flex-direction: column; justify-content: space-between; padding: 2px 0; }
-h1 { margin: 2px 0 14px; font-size: 28px; font-weight: 600; line-height: 1.2; }
-.identity p { margin: 3px 0; color: #555; }
+.identity-info { min-height: 140px; display: flex; flex-direction: column; justify-content: center; gap: 5px; padding: 2px 0; }
+h1 { margin: 0 0 3px; font-size: 28px; font-weight: 600; line-height: 1.2; }
+.identity p { margin: 0; color: #555; }
 section { padding: 29px 0; border-bottom: 1px solid #ddd; }
 h2 { margin: 0 0 8px; font-size: 17px; font-weight: 600; }
 p { margin: 0 0 9px; }
@@ -25,13 +25,17 @@ p:last-child { margin-bottom: 0; }
 .plain-list { margin: 0; padding-left: 20px; }
 .plain-list li { padding: 4px 0; }
 .plain-list span { margin-left: 15px; color: #666; }
+.calligraphy-gallery { display: flex; justify-content: center; align-items: stretch; gap: 12px; margin: 16px auto 0; width: 100%; }
+.calligraphy-gallery img { display: block; width: calc((100% - 12px) / 2); height: clamp(220px, 48vw, 420px); object-fit: contain; object-position: center; }
 footer { padding-top: 27px; color: #666; font-size: 14px; }
 @media (max-width: 520px) {
   .page { width: calc(100% - 30px); padding-top: 35px; }
   .identity { gap: 15px; }
   .avatar-frame { flex-basis: 106px; width: 106px; height: 106px; padding: 4px; }
-  .identity-info { min-height: 106px; }
+  .identity-info { min-height: 106px; gap: 4px; }
   h1 { font-size: 24px; }
   .education-item { display: block; }
   .period { display: block; margin-top: 3px; }
+  .calligraphy-gallery { gap: 8px; margin-top: 14px; }
+  .calligraphy-gallery img { width: calc((100% - 8px) / 2); height: clamp(180px, 62vw, 300px); }
 }
